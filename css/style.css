@@ -1,0 +1,270 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome|fontelico|iconicstroke|openwebicons|typicons|zocial);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* fontelico */
+[class*="fontelico-"]:before {
+  font-family: 'fontelico', sans-serif;
+}
+
+/* iconicstroke */
+[class*="iconicstroke-"]:before {
+  font-family: 'IconicStroke', sans-serif;
+}
+
+/* openwebicons */
+[class*="openwebicons-"]:before {
+  font-family: 'OpenWeb Icons', sans-serif;
+}
+
+/* typicons */
+[class*="typicons-"]:before {
+  font-family: 'Typicons', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+
+
+
+
+
+/* Setting width to individual divs */
+
+h1{
+    font-family: 'Vibur', cursive;
+  
+    
+    
+}
+
+body{
+    width:100% ;
+}
+
+#myphoto{
+    height: 300px;
+    padding: 0px;
+  
+    
+}
+
+#home{
+    width:100%;
+    height: 1000px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, red , #e06d64); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, #e06d64); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, #e06d64); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, red , #e06d64); /* Standard syntax */
+  
+
+   
+    
+}
+
+#brick{
+    margin-top: 150px;
+}
+
+
+#about-section{
+    width:100%;
+    height: 100%;
+ 
+}
+
+#education{
+    width:100%;
+    height: 100%;
+    background: #d3ffa8; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #d3ffa8 , #8aa86d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3ffa8, #8aa86d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3ffa8, #8aa86d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3ffa8 , #8aa86d); /* Standard syntax */
+  
+}
+
+#workexperience{
+    width:100%;
+    height: 100%;
+    background: #ffefc4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #ffefc4 , #f9c331); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ffefc4, #f9c331); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ffefc4, #f9c331); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ffefc4 , #f9c331); /* Standard syntax */
+  
+}
+
+#skills{
+    width:100%;
+    height: 100%;
+    background: #19c6e5; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #19c6e5 , #e0faff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #19c6e5, #e0faff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #19c6e5, #e0faff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #19c6e5 , #e0faff); /* Standard syntax */
+  
+}
+
+#projects{
+    width:100%;
+    height: 100%;
+    background: #e1e6e8; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #e1e6e8 , #93a7af); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e1e6e8, #93a7af); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e1e6e8, #93a7af); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e1e6e8 , #93a7af); /* Standard syntax */
+}
+
+#contact{
+    width:100%;
+    height: 100%;
+}
+
+#resume{
+    width:100%;
+    height: 100%;
+}
+
+
+/* Navbar */
+#first{
+    background: black;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    
+}
+
+.navbar-default .navbar-brand{
+  
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+    
+}
+
+.navbar-brand,.navbar-nav li a{
+    line-height: 100px;
+    height: 80px;
+    padding-top: 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+    background-color: #558000;
+    transition: background .5s;
+    color: white;
+    
+    
+    
+}
+
+
+/* Rows and Text */
+.row-black{
+    border-top: black;
+    border-bottom: black;
+    border-style: solid;
+    border-width: 5px;
+    height: 20px;
+}
+
+
+.header-text{
+    font-size: 200px;
+    margin-top: 25px;
+    color: black;   
+}
+
+.about-text{
+    text-align: center;
+    font-size: 25px;
+}
+
+.top-buffer{
+    
+    margin: 40px;
+    
+}
+
+.expdesc{
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.webicons{
+    font-size: 32px;
+}
+
+.framefont{
+    font-size: 26px;
+}
+
+.project-text{
+    font-size:20px;
+}
+
+
+
+
+
+
+/* images */
+
+
+.info-img{
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+}
+
+.country{
+    padding-bottom: 30px;
+}
+
+.countryimage{
+    font-size: 20px;
+}
+
+.education-img{
+    height: 200px;
+    width: 200px;
+}
+
+.experience-img{
+    height: 200px;
+    width: 300px;
+}
+
+.project-img{
+    height: 200px;
+    width: 350px;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.contactimage{
+    width: 150px;
+}
+
+
+
